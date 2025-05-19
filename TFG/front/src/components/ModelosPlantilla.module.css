@@ -1,0 +1,62 @@
+.secciones {
+    background-color: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+    margin: 0 auto 2.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .secciones:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+  
+  .secciones h2 {
+    color: #1c4e80;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .secciones h4 {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    color: #3a3a3a;
+    font-weight: 600;
+  }
+  
+  .secciones p {
+    line-height: 1.7;
+    color: #333;
+    margin-top: 0.5rem;
+  }
+  
+  .secciones ul {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .secciones li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .secciones button {
+    margin-top: 1.5rem;
+    background-color: #1c4e80;
+    color: #fff;
+    padding: 0.6rem 1.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+  }
+  
+  .secciones button:hover {
+    background-color: #163d66;
+  }
+  
